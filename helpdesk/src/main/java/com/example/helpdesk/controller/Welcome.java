@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
         public String dev() {
             return "Atividades retornadas";
         }
+        @GetMapping ("/marketing")
+        public String marketing(){
+            return "Bem-vindo ao Marketing";
+        }
     }
 
 
