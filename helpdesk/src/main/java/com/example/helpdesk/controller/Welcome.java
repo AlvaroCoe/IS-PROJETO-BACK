@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 
         @GetMapping("/")
         public String mensagem() {
-            return "Sejam bem-vindos";
+            return "Sejam bem-vindos aos teste iniciais";
         }
 
         @GetMapping("/dev")
         public String dev() {
-            return "Atividades retornadas";
+            return "Atividades retornadas / começou a agonia. Escolha o setor que deseja logar.";
         }
 
         @GetMapping ("/marketing")
